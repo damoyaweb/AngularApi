@@ -1,0 +1,9 @@
+<!-- Formulario de Login -->
+<div class="login">
+  <form class="custom-form" method="post">
+    <img class="logogws" src="http://172.18.246.3:8090/gws/Nivel2/img/logo_gws.png">
+    <input type="text" [(ngModel)]="usuario" name="usuario" placeholder="Nombre de Usuario" required="required" >
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña" required="required">
+    <button type="submit" (click)="login()"  >Ingresar</button>
+  </form>
+</div>
